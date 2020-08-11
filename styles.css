@@ -6,22 +6,22 @@
 
   body {
     margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #051937;
-  background: #f7f5f0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #051937;
+    background: #f7f5f0;
   }
 
   /* Link Styles */
 
   a {
     text-decoration: none;
-  color: #051937;
-}
-a:hover {
-  color: #A8EB12;
-}
+    color: #051937;
+  }
+  a:hover {
+    color: #A8EB12;
+  }
 
   /* Section Styles */
 
@@ -31,7 +31,7 @@ a:hover {
     min-height: 30px;
     padding: 10px;
     position: fixed;
-    text-align: center;
+    text-align: left;
   }
 
   .nav {
@@ -70,7 +70,7 @@ a:hover {
     margin-top: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 100px;
+    border-radius: 50px;
     border: 3px solid #A8EB12;
     transition: all .5s;
   }
@@ -81,7 +81,7 @@ a:hover {
     background-color:#A8EB12;
     color: #051937;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: table;
     margin: 10px auto;
   } 
@@ -176,7 +176,7 @@ a:hover {
     .flex {
         display: -ms-flexbox;      /* TWEENER - IE 10 */
         display: flex; 
-        align-items: center;
+        align-items: normal;
         max-width: 1200px;
         -ms-flex-pack: distribute;
         justify-content: space-around;
