@@ -59,13 +59,14 @@
   }
 
   header {
-      height: 350px;
-      padding-top: 30px;
-      background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 350px;
+    padding-top: 30px;
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   }
   header {
     line-height: 1;
   }
+
   header .profile-image {
     margin-top: 50px;
     width: 150px;
@@ -74,9 +75,29 @@
     border: 3px solid #A8EB12;
     transition: all .5s;
   }
+
   header .profile-image:hover {
     transform: scale(1.2) rotate(360deg);
   }
+
+  header .projects-image {
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    border-radius: 50px;
+    border: 3px solid #A8EB12;
+    transition: all .5s;
+  }
+
+  header .contact-image {
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    border-radius: 50px;
+    border: 3px solid #A8EB12;
+    transition: all .5s;
+  }
+
   .tag {
     background-color:#A8EB12;
     color: #051937;
@@ -84,11 +105,13 @@
     border-radius: 10px;
     display: table;
     margin: 10px auto;
-  } 
+  }
+
   .location {
     background-color: #051937;
     color: #A8EB12;
   }
+
   .card {
     margin: 30px;
     padding: 20px 40px 40px;
@@ -99,6 +122,7 @@
     border-radius: 6px;
     transition: all .5s;
   }
+
   .card:hover {
     border-color: #A8EB12;
   }
@@ -173,39 +197,39 @@
 
   @media screen and (min-width: 720px) {
 
-    .flex {
-        display: -ms-flexbox;      /* TWEENER - IE 10 */
-        display: flex; 
-        align-items: normal;
-        max-width: 1200px;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
+  .flex {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    align-items: normal;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
 
   header {
-      min-height: 470px;
-    }
+    min-height: 470px;
+  }
 
   .nav {
-      max-width: 1200px;
-      padding: 0 30px;
-    }
+    max-width: 1200px;
+    padding: 0 30px;
+  }
 
   main {
-      padding-top: 20px;
-    }
+    padding-top: 20px;
+  }
 
   main p {
-      line-height: 1.6em;
-    }
+    line-height: 1.6em;
+  }
 
   footer {
-      font-size: 1.3em;
-      max-width: 1200px;
-      margin: 40px auto;
-    }
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
   }
+}
 
   
 
